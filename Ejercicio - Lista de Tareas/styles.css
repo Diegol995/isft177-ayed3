@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kristen ITC';
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.input {
+    margin: 50px 0;
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.input input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.input button {
+    font-family: 'Kristen ITC';
+    font-size: 15px;
+    padding: 8px 25px;
+    margin-left: 15px;
+}
+
+.homeWorkList {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
