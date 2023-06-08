@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kristen ITC';
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1 {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    margin-bottom: 20px;
+}
+
+form {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+label, input, select {
+    font-size: 20px;
+}
